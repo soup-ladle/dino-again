@@ -79,7 +79,7 @@ function draw() {
   
     if(keyDown("space") || touches.length > 0 && trex.y >= 159) {
       trex.velocityY = -12;
-      touches[];
+      touches = [];
     }
   
     trex.velocityY = trex.velocityY + 0.8
